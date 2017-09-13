@@ -51,7 +51,7 @@ public class FruitAdapter extends BaseAdapter {
         Fruit one;
         one = arrayList.get(i);
         t1.setText(one.getName());
-        t2.setText(one.getPrice());
+        t2.setText(one.getPrice()+"원");
 setImg(one.getName(), i1);
         return view;
     }
